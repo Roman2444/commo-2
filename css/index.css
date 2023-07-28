@@ -181,10 +181,11 @@ body {
 .promo__wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .promo__text {
-    width: 50%;
+    width: 660px;
 }
 
 .subtitle-esports {
@@ -275,7 +276,8 @@ body {
 }
 
 .propmo__picture {
-    width: 50%;
+    width: 660px;
+    height: 518px;
     background: url(/img/promo-picture.png) center center/cover no-repeat;
 }
 
@@ -290,11 +292,13 @@ body {
 .cuctomize__wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .cuctomize__main-picture {
     min-width: 596px;
     min-height: 695px;
+    background: url(/img/customize.png) center center/cover no-repeat;
 
 }
 
@@ -402,6 +406,7 @@ body {
 .news__articles-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 64px;
 }
@@ -445,6 +450,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 648px;
 }
 
 .news__article {
