@@ -208,11 +208,26 @@ body {
 .promo__title {
     color: #FFF;
     font-family: Orbitron;
-    font-size: 72px;
+    font-size: 71px;
     font-style: normal;
     font-weight: 400;
     line-height: 86px;
     text-transform: capitalize;
+}
+
+.promo__image-container {
+    display: inline-block;  
+}
+
+.promo__title--accent {
+   position: relative;
+}
+
+.promo__image-underline {
+    position: absolute; 
+    top: 100%; 
+    left: 10px;
+    width: 430px;  
 }
 
 .propmo__info {
